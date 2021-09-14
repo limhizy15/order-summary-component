@@ -87,6 +87,10 @@ body {
   cursor: pointer;
 }
 
+.change:hover {
+  opacity: 0.8;
+}
+
 .payment,
 .cancel {
   width: 85%;
@@ -104,6 +108,10 @@ body {
   border-radius: 10px;
 }
 
+.payment:hover {
+  opacity: 0.8;
+}
+
 .cancel {
   background-color: transparent;
   color: var(--color-desaturated-blue);
@@ -111,4 +119,8 @@ body {
   font-size: 14px;
   font-weight: 900;
   margin-bottom: 20px;
+}
+
+.cancel:hover {
+  color: black;
 }
