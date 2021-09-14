@@ -1,6 +1,6 @@
 # Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
@@ -42,12 +42,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-
 
 ### What I learned
 
-- 정리할 것!
+- flexbox를 활용한 정렬
 
 ### Continued development
 
@@ -57,7 +55,6 @@ Users should be able to:
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
-
 ## Author
 
 - Frontend Mentor - [@limhizy15](https://www.frontendmentor.io/profile/limhizy15)
@@ -65,4 +62,3 @@ Users should be able to:
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-

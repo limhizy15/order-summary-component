@@ -1,0 +1,114 @@
+:root {
+  /* Color */
+  --color-pale-blue: hsl(225, 100%, 94%);
+  --color-bright-blue: hsl(245, 75%, 52%);
+  --color-very-pale-blue: hsl(225, 100%, 98%);
+  --color-desaturated-blue: hsl(224, 23%, 55%);
+  --color-dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg) center/cover no-repeat;
+  background-color: var(--color-pale-blue);
+}
+
+.card {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card__title {
+  margin-top: 40px;
+  font-weight: 900;
+}
+
+.card__description {
+  text-align: center;
+  margin: 0 50px;
+  color: var(--color-desaturated-blue);
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.card__price {
+  background-color: var(--color-very-pale-blue);
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  justify-content: flex-start;
+  padding: 20px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.info {
+  line-height: 24px;
+}
+
+.info__title,
+.info__price {
+  display: block;
+  font-size: 14px;
+}
+
+.info__title {
+  font-weight: 900;
+}
+
+.info__price {
+  color: var(--color-desaturated-blue);
+}
+
+.change {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-bright-blue);
+  line-height: 48px;
+  cursor: pointer;
+}
+
+.payment,
+.cancel {
+  width: 85%;
+  height: 50px;
+  cursor: pointer;
+}
+
+.payment {
+  background-color: var(--color-bright-blue);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.cancel {
+  background-color: transparent;
+  color: var(--color-desaturated-blue);
+  border: none;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
