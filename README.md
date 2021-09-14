@@ -26,13 +26,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-- 완성 후 추가할 것
+![](./screenshot.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [here](https://github.com/limhizy15/order-summary-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -45,20 +43,13 @@ Users should be able to:
 
 ### What I learned
 
-- flexbox를 활용한 정렬
+- align items via flexbox
+- how to deploy page
 
 ### Continued development
 
-- 추가할 것
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- responsive to mobile size
 
 ## Author
 
 - Frontend Mentor - [@limhizy15](https://www.frontendmentor.io/profile/limhizy15)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
